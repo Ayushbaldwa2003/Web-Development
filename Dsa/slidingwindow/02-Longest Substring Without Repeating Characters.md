@@ -1,6 +1,7 @@
-Q.2) Leetcode 3 Longest Substring Without Repeating Characters
+## 🔹 Leetcode 3 Longest Substring Without Repeating Characters
 
-Solution:-
+### 💡 Solution (Java)
+```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         HashSet<Character> hs=new HashSet<>();

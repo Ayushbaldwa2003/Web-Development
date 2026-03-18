@@ -1,6 +1,7 @@
-Q.4) Leetcode 904 Fruit Into Baskets
+## 🔹 Q.4) Leetcode 904 Fruit Into Baskets
 
-Solution:-
+### 💡 Solution (Java)
+```java
 class Solution {
     public int totalFruit(int[] nums) {
         int number1=-1;

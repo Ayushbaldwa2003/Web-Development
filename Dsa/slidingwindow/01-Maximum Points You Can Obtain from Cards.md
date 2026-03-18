@@ -1,8 +1,8 @@
-Q.) Leetcode 1423 Maximum Points You Can Obtain from Cards
+## 🔹 Leetcode 1423 Maximum Points You Can Obtain from Cards
 
 
-Solution:-
-
+### 💡 Solution (Java)
+```java
 class Solution {
     public int maxScore(int[] nums, int k) {
         int l=0;

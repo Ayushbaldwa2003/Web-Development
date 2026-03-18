@@ -1,6 +1,7 @@
-Q.3) Leetcode 1004 Max Consecutive Ones III
+## 🔹 Leetcode 1004 Max Consecutive Ones III
 
-Solution:-
+### 💡 Solution (Java)
+```java
 class Solution {
     public int longestOnes(int[] nums, int k) {
         int max=0;
