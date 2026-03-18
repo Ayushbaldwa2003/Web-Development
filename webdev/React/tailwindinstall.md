@@ -21,9 +21,7 @@ export default {
 }
 
 add the following to index.css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;  
+import "tailwindcss"; 
 
 in main.jsx
 import './index.css'
