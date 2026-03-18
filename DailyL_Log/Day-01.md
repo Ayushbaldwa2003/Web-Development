@@ -1,19 +1,58 @@
-                    DSA:-
-Solved 4 Sliding window questions 
-question n.o 1-4 
-solved 1 Graph question 
-question n.o 1 
+# 📅 Day Progress Report
 
-                    Development:-
-Learn git topics like
-git commits and log
-git merge and internal conflicts
-git diff and stashing
-git branches and rebasing
-pushing code to github
-How to make pull request and open source contribution
+---
 
-                    React:-
-1.Learned about props in react and how to use them in functional components
-  Created a card component and passed props to it to make it reusable
-2.Implement use state hook and build and background color changer app
+## 🚀 DSA Practice
+
+### 🔹 Sliding Window (4 Questions)
+1. **Leetcode 1423** – Maximum Points You Can Obtain from Cards  
+2. **Leetcode 3** – Longest Substring Without Repeating Characters  
+3. **Leetcode 1004** – Max Consecutive Ones III  
+4. **Leetcode 904** – Fruit Into Baskets  
+
+### 🔹 Graph (1 Question)
+1. **Leetcode 785** – Is Graph Bipartite?  
+
+---
+
+## 💻 Development (Git)
+
+### 📚 Topics Learned
+- Git commits & logs  
+- Git merge & resolving conflicts  
+- Git diff & stashing  
+- Git branching & rebasing  
+- Pushing code to GitHub  
+- Creating pull requests  
+- Basics of open source contribution  
+
+---
+
+## ⚛️ React
+
+### 🔹 Props in React
+- Learned how props work in functional components  
+- Created a **Card Component**  
+- Passed props to make the component reusable  
+
+### 🔹 useState Hook
+- Implemented `useState` hook  
+- Built a **Background Color Changer App**  
+
+---
+
+## 🧠 Key Takeaways
+- Improved understanding of **Sliding Window technique**  
+- Strengthened concepts in **Graph (Bipartite check using BFS)**  
+- Gained practical knowledge of **Git workflows**  
+- Learned **component reusability in React**  
+
+---
+
+## ✅ Summary
+- 📌 Total DSA Questions Solved: **5**  
+- 📌 Topics Covered: Sliding Window, Graph  
+- 📌 Development: Git & GitHub Workflow  
+- 📌 React: Props + useState  
+
+---
