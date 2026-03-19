@@ -198,6 +198,80 @@ useEffect runs
 
 ---
 
+# ⚛️ useRef Hook
+
+---
+
+## 📌 What is useRef?
+
+👉 useRef is a React hook used to store a mutable value  
+👉 It does NOT cause re-render when updated  
+
+---
+
+## 📌 Syntax
+
+const refName = useRef(initialValue);
+
+Access value:
+refName.current
+
+---
+
+## 📌 Key Points
+
+- Stores value between renders
+- Does NOT trigger re-render
+- Used for DOM access
+- Value stored in `.current`
+
+---
+
+## 📌 useRef vs useState
+
+| Feature        | useState       | useRef        |
+|---------------|---------------|--------------|
+| Re-render     | Yes           | No           |
+| UI Update     | Yes           | No           |
+| Use case      | UI data       | DOM / storage |
+
+---
+
+## 📌 Common Uses
+
+### 1. Access DOM
+
+const inputRef = useRef(null);
+
+<input ref={inputRef} />
+
+inputRef.current.focus();
+
+---
+
+### 2. Store Previous Value
+
+const prevValue = useRef();
+
+useEffect(() => {
+  prevValue.current = value;
+}, [value]);
+
+---
+
+## 📌 Important
+
+👉 Changing ref does NOT update UI  
+👉 Always use `.current` to access value  
+👉 Mostly used for DOM manipulation  
+
+---
+
+## 🚀 Summary
+
+useRef = Store value without re-render  
+useState = Store value with re-render
+
 # 🔥 Final Summary
 
 👉 Functional Component = function that returns UI
@@ -205,5 +279,5 @@ useEffect runs
 👉 useState = store and update data
 👉 useCallback = cache functions
 👉 useEffect = run code after render
-
+👉 useRef = store value / access DOM without re-render
 ---
